@@ -65,7 +65,7 @@ const SponsorsCarousel: React.FC<SponsorsCarouselProps> = ({ sponsors }) => {
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-0">
           <svg width="100%" height="340" viewBox="0 0 700 340" fill="none" xmlns="http://www.w3.org/2000/svg" className="blur-3xl opacity-30">
             <path d="M40 120 Q80 40 180 80 Q350 10 580 100 Q700 180 580 280 Q350 340 120 280 Q60 250 40 200 Q20 160 40 120Z" fill="#0031d1f7" />
-          </svg>
+            </svg>
         </div>
 
         {/* Main carousel container */}
@@ -89,7 +89,7 @@ const SponsorsCarousel: React.FC<SponsorsCarouselProps> = ({ sponsors }) => {
                   pointerEvents: rel === 0 ? 'auto' : 'none',
                 }}
                 transition={{ type: 'spring', stiffness: 120, damping: 20 }}
-                style={{
+                    style={{
                   boxShadow: rel === 0 ? '0 8px 40px 0 #01098f55' : '0 2px 12px 0 #01098f33',
                 }}
               >
@@ -101,7 +101,7 @@ const SponsorsCarousel: React.FC<SponsorsCarouselProps> = ({ sponsors }) => {
               </motion.div>
             );
           })}
-        </div>
+          </div>
 
         {/* Add outer container for arrows */}
         <div className="fixed inset-0 pointer-events-none">

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Car Race Competition - IEEE Student Branch
 
 A modern web application for the IEEE Car Race Competition registration and information portal.
@@ -47,3 +48,7 @@ npm run dev
 ## License
 
 MIT License 
+=======
+# Car_race_competition
+IEEE AGAIN LAST TIME ISWR
+>>>>>>> 4254c6e8d68da0f96afb4b16f146784cbc451639
